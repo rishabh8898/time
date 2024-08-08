@@ -1,0 +1,49 @@
+example
+
+When you run the provided script and input the required values, the GUI will calculate the adjusted time based on your tube theory and display it in a message box. Here is an example of how the GUI interaction might look, along with an example output:
+
+Example Input Values
+Latitude: 40.7128
+Longitude: -74.0060
+Time: 2024-08-07T12:00:00
+Mass Distribution: 10000000000
+Velocity: 1000000
+Steps:
+Run the script by executing python tube_theory_gui.py in your command prompt or terminal.
+A window will appear with input fields for Latitude, Longitude, Time, Mass Distribution, and Velocity.
+Enter the example input values into the corresponding fields.
+Click the "Calculate Adjusted Time" button.
+Example Output:
+After clicking the button, a message box will appear displaying the adjusted time. The output might look like this:
+
+css
+Copy code
+Adjusted Time: 18.01419294761677 h
+Detailed Interaction:
+Initial GUI Window:
+
+The window titled "Tube Theory Time Adjustment" opens with input fields for all parameters.
+Labels next to each field describe the expected input.
+Input Data:
+
+Latitude: Enter 40.7128.
+Longitude: Enter -74.0060.
+Time (YYYY-MM-DDTHH:MM
+): Enter 2024-08-07T12:00:00.
+Mass Distribution (kg): Enter 10000000000.
+Velocity (m/s): Enter 1000000.
+Click "Calculate Adjusted Time":
+
+After entering all the values, click the "Calculate Adjusted Time" button.
+Result Message Box:
+
+A message box will pop up with the text "Result" as the title.
+The content will show the calculated adjusted time, e.g., "Adjusted Time: 18.01419294761677 h".
+Full Example of the GUI Interaction:
+Start the script, and the following window appears:
+
+Fill in the input fields with the example values:
+
+Click "Calculate Adjusted Time":
+
+The message box with the result appears:
